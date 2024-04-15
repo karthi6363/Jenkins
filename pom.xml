@@ -59,6 +59,11 @@
     <scope>test</scope>
 </dependency>
 
+<properties>
+  <sonar.organization>karthi6363</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>	
+	
 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
