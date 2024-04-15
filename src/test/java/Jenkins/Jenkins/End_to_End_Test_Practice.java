@@ -70,7 +70,7 @@ public class End_to_End_Test_Practice {
 		driver.findElement(By.xpath("//input[@value='Search']")).click();
 		System.out.println("Train search has been successfully completed");
 		Thread.sleep(2000);
-		driver.close();
+		driver.quit();
 
 	}
 
